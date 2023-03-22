@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@300;800;900&family=IBM+Plex+Sans:wght@400;700&family=Outfit:wght@300;800;900&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "barlow";
+}
+body{
+    overflow-x: hidden;
+}
+/*    HEADER     */
+header{
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:40px ;
+}
+.pre-order{
+    background: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    width: 175px;
+    height:58px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #162542;
+    cursor: pointer;
+}
+/*   MAIN   */
+.text{
+    margin-top:64px ;
+    padding: 0 24px;
+}
+.text h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 32px;
+}
+.buttons{
+    margin-top: 43px;
+}
+.orange-preorder{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F16718;
+    border-radius: 8px;
+    border: none;
+    width:150px;
+    height: 48px;
+    cursor: pointer;
+}
+.release{
+    width: 127px;
+    height: 26px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+    background: #FFFFFF;
+    margin-left:32px ;
+    cursor: pointer;
+}
+#first-key{
+    margin-top: 75px;
+    margin-left: 24px;
+    border-radius: 20px;
+}
