@@ -93,7 +93,7 @@ header{
 }
 /*MIDDLE SECTION*/
 
-#first-key-tab, #phone-key-tab, #glass-tab{
+#first-key-tab, #phone-key-tab, #glass-tab, #first-key-tab{
     display: none;
 }
 .middle{
@@ -188,7 +188,7 @@ footer{
 @media (min-width:768px){
     .upper{
         display: flex;
-        justify-content: center;
+        
         align-items: center;
         
     }
@@ -200,7 +200,7 @@ footer{
         margin: 0;
         
     }
-    #first-key-tab, #phone-key-tab, #glass-tab{
+    #first-key-tab, #phone-key-tab, #glass-tab, #first-key-tab{
         display: block;
     }
     #first-key, #phone-key, #glass{
@@ -209,5 +209,56 @@ footer{
     #phone-key-tab{
         mix-blend-mode: multiply;
         opacity: 0.75;
+        border-radius: 20px;
+    }
+    #first-key-tab{
+        width: 62.23%;
+        border-radius: 20px;
+        position: relative;
+        right: -20.44%;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+    }
+    .images{
+        left: 5.07%;
+     
+    }
+    .layer{
+        width: 27.86%;
+    }
+    #phone-key-tab{
+        width:100%;
+        
+    }
+    #glass-tab{
+        width: 57.97%;
+        border-radius: 20px;
+
+    }
+    .wireless{
+        display: flex;
+        padding: 0 40px;
+    }
+    .wireless p{
+        width:51. 82%;
+        padding-left: 36px;
+        text-align: center;
+    }
+    .wireless h2{
+        text-align: left;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 72px;
+        column-gap: 68px;
+    }
+    .class{
+        text-align: left;
+        
     }
 }
