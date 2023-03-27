@@ -305,6 +305,9 @@ footer{
     .middle{
         margin-top: 30px;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
     }
     #first-key-desk{
         width: 37.5%;
@@ -358,7 +361,9 @@ footer{
         margin-top: 0;
     }
     .images{
-        width: 50%;
-        left: 0;
+        min-width: 50%;
+        left: 0; 
+        
+
     }
 }
