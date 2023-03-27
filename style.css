@@ -227,7 +227,6 @@ footer{
     }
     .images{
         left: 5.07%;
-     
     }
     .layer{
         width: 27.86%;
@@ -285,7 +284,7 @@ footer{
         display: block;
     }   
     .layer{
-        width: 17.86%;
+        width: 255px;
         height:480px;
         margin-left: 165px;
     }
@@ -298,7 +297,7 @@ footer{
         
     }
     #glass-desk{
-        width: 30.9%;
+        width: 500px;
         height: 480px;
         border-radius: 20px;
     }
@@ -306,7 +305,7 @@ footer{
         margin-top: 30px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 125px;
         
     }
     #first-key-desk{
@@ -364,6 +363,5 @@ footer{
         min-width: 50%;
         left: 0; 
         
-
     }
 }
